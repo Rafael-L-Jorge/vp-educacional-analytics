@@ -1,5 +1,7 @@
 # VP Educa: Análise de Dados e Estatística para Validar Metodologias de Ensino em Cursos Preparatórios
 
+**Aviso:** Este é um projeto de portfólio, desenvolvido com dados, nomes de instituições e cenários fictícios criados exclusivamente para demonstrar habilidades em Análise de Dados, BI e Estatística.
+
 ## Contexto
 No vestibular de medicina, cada ponto pode definir a aprovação ou a reprovação de um candidato.  
 O curso preparatório **VP**, do Rio de Janeiro, criou a turma **VPrimeira**, voltada para estudantes que prestarão a prova da **UCMJ** em 02/08/2025.
