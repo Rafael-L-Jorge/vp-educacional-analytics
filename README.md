@@ -30,7 +30,7 @@ A metodologia de ensino da turma **VPrimeira** melhora significativamente o dese
 ---
 
 ## Descrição do Projeto
-Este projeto **simula um cenário realista** de um curso preparatório, avaliando sua metodologia de ensino por meio de **dados e estatística**.
+Este projeto **simula o cenário** de um curso preparatório, avaliando sua metodologia de ensino por meio de **dados e estatística**.
 
 **Pipeline de dados:**
 1. Modelagem relacional no **SQL Server**
