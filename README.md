@@ -55,3 +55,16 @@ O projeto mostra como **dados e estatística** transformam percepções pedagóg
 A análise permite ajustes rápidos na metodologia, aumentando a eficácia do ensino, um fator decisivo em cursos preparatórios para carreiras altamente competitivas.
 
 ---
+
+
+## Dicionário de Dados | 
+
+### Banco de Dados SQL
+[Clique aqui](referencias/01_dicionario_de_dados_sqlserver.md)
+
+
+---
+
+## Fonte dos Dados
+
+Os dados utilizados neste projeto foram criados por **IA**.
