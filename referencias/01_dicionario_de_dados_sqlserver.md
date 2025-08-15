@@ -51,7 +51,7 @@
 | `id_tema`           | Identificador do tema                                         | int (PK)     |
 | `id_disciplina`     | Chave estrangeira para `Dim_Disciplinas`                      | int (FK)     |
 | `nome`              | Nome do tema (ex.: `Citologia`, `Estequiometria`)             | nvarchar     |
-| `grau_dificuldade`  | Nível de dificuldade (`baixo`, `médio`, `alto`)               | nvarchar     |
+| `grau_dificuldade`  | Nível de dificuldade (`Baixo`, `Medio`, `Alto`)               | nvarchar     |
 
 
 ## Dim_Tipo_Simulado
