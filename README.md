@@ -57,11 +57,15 @@ A análise permite ajustes rápidos na metodologia, aumentando a eficácia do en
 ---
 
 
-## Dicionário de Dados | 
+## Dicionário de Dados 
 
 ### Banco de Dados SQL
 [Clique aqui](referencias/01_dicionario_de_dados_sqlserver.md)
 
+### Power BI
+[Clique aqui](referencias/02_dicionario_de_dados_pbi.md)
+
+Acesse o dashboard em: [AQUI](https://app.powerbi.com/view?r=eyJrIjoiOTA1ZWVhOWItZGM2Zi00MTc3LWI3OGMtYTY2NmE1OTZjNjRjIiwidCI6ImEwOGMzNWQxLWY2ZmMtNDI2MC1hMjUyLWNkM2ZmZWNlMDE2YiJ9)
 
 ---
 
