@@ -1,5 +1,5 @@
 # Dicionário de Dados para Power BI
-## Modelo Estrela Puro (Views SQL)
+## Modelo Estrela (Views SQL)
 
 Este documento descreve as *views* criadas no SQL Server para uso no Power BI, mantendo a estrutura de modelo estrela.
 Cada dimensão e fato é exposta de forma independente, preservando a granularidade e facilitando a criação de relacionamentos no Power BI.
