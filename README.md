@@ -32,7 +32,7 @@ A metodologia de ensino da turma **VPrimeira** melhora significativamente o dese
 ---
 
 ## Descrição do Projeto
-Este projeto **simula o cenário** de um curso preparatório, avaliando sua metodologia de ensino por meio de **dados e estatística**.
+Este projeto **simula um cenário realista** de um curso preparatório, avaliando sua metodologia de ensino por meio de **dados e estatística**.
 
 **Pipeline de dados:**
 1. Modelagem relacional no **SQL Server**
@@ -56,8 +56,75 @@ A análise permite ajustes rápidos na metodologia, aumentando a eficácia do en
 
 ---
 
+## Resultados
 
-## Dicionário de Dados 
+- O teste de Shapiro-Wilk mostrou que o simulado diagnóstico seguia normalidade, mas o final não.  
+- O teste de Levene indicou homogeneidade das variâncias.  
+- Com isso, aplicamos o **Wilcoxon** para comparar os acertos dos alunos entre diagnóstico e final.  
+- Resultado: p = 0.408 (p > 0.05) – não houve diferença estatisticamente significativa no desempenho agregado da turma.
+
+---
+
+## Conclusão Estatística
+
+A hipótese principal: de que a metodologia da turma **VPrimeira** melhoraria significativamente o desempenho entre diagnóstico e final, **não foi confirmada** pelos dados analisados.  
+O desempenho médio permaneceu estável, sem evidências de evolução estatisticamente significativa.
+Em termos pedagógicos, alguns alunos melhoraram, outros mantiveram ou reduziram o desempenho, mas o efeito global do curso não foi consistente o suficiente para se refletir estatisticamente.
+
+---
+
+## Limitações e Próximos Passos
+
+Os achados devem ser lidos à luz de *n* = 35, uso de acertos brutos (escala inteira) e ausência de controle por covariáveis (ex.: assiduidade, tempo de estudo, perfil socioeducacional).  
+Próximos estudos devem: ampliar a amostra, segmentar análises por disciplina/tema/perfil e integrar resultados de vestibulares reais para medir impacto pedagógico no desfecho final.
+
+---
+
+## Recomendações
+
+- Realizar análises segmentadas (por disciplina, tema ou perfil de aluno) para identificar ganhos pontuais não visíveis no agregado.  
+- Ampliar a amostra em estudos futuros para aumentar o poder dos testes.  
+- Investigar métodos qualitativos (feedbacks, engajamento dos alunos) para complementar a avaliação quantitativa.  
+- Explorar modelos de predição para identificar quais fatores mais impactam no desempenho individual.  
+- Expandir a análise para incluir o desempenho dos alunos no vestibular, validando se a evolução nos simulados se traduz em resultados concretos de aprovação.
+- Criar mecanismos de acompanhamento individual (dashboards por aluno) para identificar rapidamente os casos em que a metodologia funciona ou não, permitindo intervenções personalizadas.
+
+---
+
+## Organização do Projeto
+
+```
+├── .gitignore                       <- Arquivos e diretórios ignorados pelo Git
+├── ambiente_github_projeto3.yml     <- Arquivo de requisitos para reproduzir o ambiente
+├── LICENSE                          <- Licença de código aberto (MIT)
+├── README.md                        <- Descrição geral do projeto
+
+├── dados/                           <- Arquivos de dados (não disponibilizados)
+├── notebooks/                       <- Jupyter Notebook de análise
+├── imagens/                         <- Imagens utilizadas no projeto
+├── referencias/                     <- Dicionário de dados
+
+└── src/                             <- Código-fonte
+    ├── __init__.py                  <- Torna um módulo Python
+    └── funcoes_projeto3.py          <- Funções utilizadas no projeto
+```
+---
+
+# Configuração do ambiente
+
+1. Faça o clone do repositório.
+
+    ```bash
+    git clone git@github.com:Rafael-L-Jorge/vp-educacional-analytics.git
+    ```
+
+2. Crie um ambiente virtual para o seu projeto utilizando o `conda`.
+
+   ```bash
+   conda env create -f ambiente_github_projeto3.yml --name vpeducadados
+   ```
+
+## Dicionário de Dados | 
 
 ### Banco de Dados SQL
 [Clique aqui](referencias/01_dicionario_de_dados_sqlserver.md)
@@ -66,6 +133,10 @@ A análise permite ajustes rápidos na metodologia, aumentando a eficácia do en
 [Clique aqui](referencias/02_dicionario_de_dados_pbi.md)
 
 Acesse o dashboard em: [AQUI](https://app.powerbi.com/view?r=eyJrIjoiOTA1ZWVhOWItZGM2Zi00MTc3LWI3OGMtYTY2NmE1OTZjNjRjIiwidCI6ImEwOGMzNWQxLWY2ZmMtNDI2MC1hMjUyLWNkM2ZmZWNlMDE2YiJ9)
+
+### Python
+[Clique aqui](referencias/03_dicionario_de_dados_python.md)
+
 
 ---
 
