@@ -1,6 +1,6 @@
 # VP Educa: Análise de Dados e Estatística para Validar Metodologias de Ensino em Cursos Preparatórios
 
-**Aviso:** Este é um projeto de portfólio, desenvolvido com dados, nomes de instituições e cenários fictícios criados exclusivamente para demonstrar habilidades em Análise de Dados, BI e Estatística.
+**Aviso:** Este é um projeto de portfólio, desenvolvido com dados, nomes de instituições e cenários fictícios criados exclusivamente para demonstrar habilidades em Análise de Dados, BI e Estatística. Em um contexto real, o escopo seria mais abrangente, incluindo fatores adicionais e análises mais avançadas (ex: regressões estatísticas).
 
 ## Contexto
 No vestibular de medicina, cada ponto pode definir a aprovação ou a reprovação de um candidato.  
@@ -67,7 +67,7 @@ A análise permite ajustes rápidos na metodologia, aumentando a eficácia do en
 
 ## Conclusão Estatística
 
-A hipótese principal: de que a metodologia da turma **VPrimeira** melhoraria significativamente o desempenho entre diagnóstico e final, **não foi confirmada** pelos dados analisados.  
+A hipótese principal de que a metodologia da turma **VPrimeira** melhoraria significativamente o desempenho entre diagnóstico e final, **não foi confirmada** pelos dados analisados.  
 O desempenho médio permaneceu estável, sem evidências de evolução estatisticamente significativa.
 Em termos pedagógicos, alguns alunos melhoraram, outros mantiveram ou reduziram o desempenho, mas o efeito global do curso não foi consistente o suficiente para se refletir estatisticamente.
 
@@ -75,7 +75,7 @@ Em termos pedagógicos, alguns alunos melhoraram, outros mantiveram ou reduziram
 
 ## Limitações e Próximos Passos
 
-Os achados devem ser lidos à luz de *n* = 35, uso de acertos brutos (escala inteira) e ausência de controle por covariáveis (ex.: assiduidade, tempo de estudo, perfil socioeducacional).  
+Os achados devem ser lidos à luz de *n* = 35, uso de acertos brutos (escala inteira) e ausência de controle por covariáveis (ex: assiduidade, tempo de estudo, perfil socioeducacional).  
 Próximos estudos devem: ampliar a amostra, segmentar análises por disciplina/tema/perfil e integrar resultados de vestibulares reais para medir impacto pedagógico no desfecho final.
 
 ---
