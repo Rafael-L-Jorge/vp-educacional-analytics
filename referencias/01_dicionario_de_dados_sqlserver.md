@@ -6,7 +6,7 @@
 | `id_aluno`            | Identificador único do aluno                                    | int (PK)     |
 | `nome`                | Nome do aluno                                                   | nvarchar     |
 | `idade`               | Idade do aluno                                                  | int          |
-| `genero`              | Gênero do aluno (`masculino`, `feminino`)                       | nvarchar     |
+| `genero`              | Gênero do aluno (`m`, `f`)                       | nvarchar     |
 | `origem_educacional`  | Tipo de escola de origem (`pública`, `privada`)                 | nvarchar     |
 | `id_turma`            | Chave estrangeira referenciando a turma do aluno                | int (FK)     |
 
