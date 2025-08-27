@@ -132,7 +132,7 @@ Próximos estudos devem: ampliar a amostra, segmentar análises por disciplina/t
 ### Power BI
 [Clique aqui](referencias/02_dicionario_de_dados_pbi.md)
 
-Acesse o dashboard em: [AQUI](https://app.powerbi.com/view?r=eyJrIjoiOTA1ZWVhOWItZGM2Zi00MTc3LWI3OGMtYTY2NmE1OTZjNjRjIiwidCI6ImEwOGMzNWQxLWY2ZmMtNDI2MC1hMjUyLWNkM2ZmZWNlMDE2YiJ9)
+Acesse o dashboard em: [AQUI](https://app.powerbi.com/view?r=eyJrIjoiMDBhNzYzNDUtNzVkZS00ZWQyLWJiZTktZDFiYjY2NjgyNTI1IiwidCI6ImEwOGMzNWQxLWY2ZmMtNDI2MC1hMjUyLWNkM2ZmZWNlMDE2YiJ9)
 
 ### Python
 [Clique aqui](referencias/03_dicionario_de_dados_python.md)
