@@ -73,6 +73,13 @@ Em termos pedagógicos, alguns alunos melhoraram, outros mantiveram ou reduziram
 
 ---
 
+## Dashboards no Power BI
+
+O arquivo `.pbix` com a versão do dashboard desenvolvido está disponível na pasta [`dashboards/`](./dashboards/).  
+Ele pode ser aberto no **Power BI Desktop** para exploração dos relatórios interativos.  
+
+---
+
 ## Limitações e Próximos Passos
 
 Os achados devem ser lidos à luz de *n* = 35, uso de acertos brutos (escala inteira) e ausência de controle por covariáveis (ex: assiduidade, tempo de estudo, perfil socioeducacional).  
@@ -107,6 +114,10 @@ Próximos estudos devem: ampliar a amostra, segmentar análises por disciplina/t
 └── src/                             <- Código-fonte
     ├── __init__.py                  <- Torna um módulo Python
     └── funcoes_projeto3.py          <- Funções utilizadas no projeto
+
+└── dashboards/                      <- diretório para arquivos do Power BI
+    ├── Dashboard_vp_educa           <- Arquivo do Power BI
+
 ```
 ---
 
