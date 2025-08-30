@@ -73,13 +73,6 @@ Em termos pedagógicos, alguns alunos melhoraram, outros mantiveram ou reduziram
 
 ---
 
-## Dashboards no Power BI
-
-O arquivo `.pbix` com a versão do dashboard desenvolvido está disponível na pasta [`dashboards/`](./dashboards/).  
-Ele pode ser aberto no **Power BI Desktop** para exploração dos relatórios interativos.  
-
----
-
 ## Limitações e Próximos Passos
 
 Os achados devem ser lidos à luz de *n* = 35, uso de acertos brutos (escala inteira) e ausência de controle por covariáveis (ex: assiduidade, tempo de estudo, perfil socioeducacional).  
